@@ -25,11 +25,11 @@ class GradeCounter extends Component {
     render() {
         console.log('rendering our counter', this.props.text);
         return (
-            <div>
-                <a class="button" onClick={this.decCount}>-</a>
-                <p>{this.props.text} {this.state.count}</p>
-                <a class="button" onClick={this.incCount}>+</a>
-            </div>
+            <nav className="level">
+                <a className="button level-item is-large is-mobile" onClick={this.decCount}>-</a>
+                <p className="title level-item is-mobile">{this.props.text} {this.state.count}</p>
+                <a className="button level-item is-large is-mobile" onClick={this.incCount}>+</a>
+            </nav>
         )
     }
 }
