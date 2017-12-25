@@ -1,0 +1,16 @@
+{
+  "name": "gym-beta-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/app.js"
+  },
+  "dependencies": {
+    "express": "4.16.2",
+    "helmet": "3.9.0"
+  },
+  "devDependencies": {
+    "typescript": "2.6.2"
+  }
+}
